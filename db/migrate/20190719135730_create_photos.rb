@@ -13,4 +13,4 @@ class CreatePhotos < ActiveRecord::Migration[5.2]
   end
 end
 
-#add_column :photos, :picture, :string
+add_column :photos, :picture, :string

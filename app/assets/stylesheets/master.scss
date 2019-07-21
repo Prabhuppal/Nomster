@@ -76,3 +76,17 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+
+.float-right {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

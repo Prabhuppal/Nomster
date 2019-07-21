@@ -20,5 +20,16 @@
 		</div>
 		<% end %>
 
-  </div>
+    	<% if place.photos.present? %>
+    	<div class="col-12">
+      <%= place.photos.first.caption %><br />
+      <div class="img">
+      <%= image_tag place.photos.first.picture.url %><br/>
+      </div>
+      <small><%= place.photos.first.user.email %></small>
+  		</div>
+		<% end %>    
+  
+</div>
+
 <% end %>
